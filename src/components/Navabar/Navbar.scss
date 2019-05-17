@@ -1,0 +1,27 @@
+@import "../../index.scss";
+
+.navbar{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: $colorGray;
+}
+
+.navbar-links{
+    align-self: center;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    
+}
+
+.navbar-link{
+    color: $colorWhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    transition: all 0.3s linear;
+    &:hover{
+        color: $colorGreen;
+    }
+}

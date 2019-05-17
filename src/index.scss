@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$colorGreen: #a2b340;
+$colorWhite: #fff;
+$colorGray: #808080;
+$colorBlack: #000;
+$colorGrey: #ececec;
+
+
+body{
+  background: $colorWhite;
+  color: $colorBlack;
+}
